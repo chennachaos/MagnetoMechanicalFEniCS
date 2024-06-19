@@ -605,7 +605,8 @@ def writeResults(t):
 # Write initial state at t=0
 writeResults(t=0.0)
 
-while (round(t,4) <= round(T_tot + step2_time,4)):
+#while (round(t,4) <= round(T_tot + step2_time,4)):
+while (round(t,4) <= round(100.0,4)):
 
     # condition for second phase:
     if t+dt>T_tot:
